@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
+
+}
+
+$Roboto: 'Roboto';
+$Chakra : 'Chakra Petch';
+$white: #fff;
+$black: #212121;
+$font-size: 16px;
+
+::root {
+    --jkit-bg-color: #ffffff;
+    --jkit-border-color: #eaeaeb;
+    --jkit-txt-color: #575A5F;
+    --jkit-txt-h-color: #181D23;
+    --jkit-txt-a-color: #0058E6;
+    --jkit-txt-m-color: #96989B;
+    --jkit-txt-alt-color: #ffffff;
+    --jkit-form-border-color: #D5D5D7;
+    --jkit-form-bg-color: transparent;
+    --jkit-form-txt-color: #181D23;
+    --jkit-btn-txt-color: #ffffff;
+    --jkit-btn-bg-color: #0058E6;
+    --jkit-btn-bg-hover-color: #0048bd;
+    --jkit-selection-bg-color: #d8a600;
+    --jkit-element-bg-color: #80b1ff;
+    --jkit-element-darken-bg-color: #0058E6;
+    --jkit-element-lighten-bg-color: #e6f0ff;
+    --jkit-success-bg-color: #75ffd8;
+    --jkit-success-border-color: #007f5b;
+    --jkit-error-bg-color: #ffcccc;
+    --jkit-error-border-color: #d60000;
+    --e-global-color-secondary: #909090;
+    --e-global-color-text: #EDEDED;
+    --e-global-color-accent: #1B63FF;
+    --e-global-color-642f782: #07060F;
+    --e-global-color-dbd2df0: #292B33;
+    --e-global-color-f7c6147: #FAC994;
+    --e-global-color-1fc2fad: #50505082;
+    --e-global-color-6b29396: #040409;
+    --e-global-color-080a05b: #FFFFFF00;
+    --e-global-color-6bfc0e6: #211F2F
+}
+
+// comman class
+.margin-auto {
+    margin: auto;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+// header
+header {
+    background-color: rgb(34, 34, 67);
+
+    .logo {
+
+        align-items: center;
+        display: flex;
+
+    }
+
+    .menu {
+
+        ul {
+
+            li {
+                padding: 25px;
+                list-style-type: none;
+                font-family: $Chakra;
+
+                a {
+                    justify-content: space-between;
+                    color: $white;
+                    font-size: 20px;
+                    font-weight: 500;
+                    text-decoration: none;
+                }
+                a:hover{
+                    color:#D5D5D7;
+                    } 
+            }
+        }
+    }
+               
+    button {
+        width: 220px;
+        height: 41px;
+        border-radius: 5px;
+        color: $black;
+        transition: all 0.5s;
+        background-color: $white;
+        font-size: 17px;
+        margin: auto;
+
+    }
+
+    button:hover {
+        background-color: #0058E6;
+        color: $white;
+    }
+}
+
+// banner
+section {
+    .w-50 {
+        h1 {
+            color: $white;
+            font-size: 100px;
+            font-family: $Chakra;
+            margin-top: 120px;
+        }
+    
+        p {
+            font-size: 20px;
+            color: #797d85;
+            font-family: $Roboto;
+            font-weight: 500;
+            margin-top: 30px;
+            line-height: 35px;
+    
+        }
+    
+        img {
+            margin: 80px 55px;
+        }
+        width: 50%;
+    }
+
+    
+}
+
+// title
+section {
+    h3 {
+        font-size: 60px;
+        color: $white;
+        margin-top: 50px;
+        font-family: $Chakra;
+    }
+}
+
+
+// second section
+section {
+    .w-33 {
+        width: 33.33%;
+    }
+
+}
+
+// Third section
+section {
+    .w-50 {
+        h1.title {
+            font-size: 60px;
+            color: $white;
+            margin: auto;
+            margin-top: 50px;
+        }
+    
+        p {
+            color: #EDEDED;
+            font-size: 20px;
+            margin-top: 50px;
+    
+        }
+        width: 50%;
+    }
+
+}
+
+// four section
+section {
+    img {
+        margin-top: 50px;
+
+    }
+}
+
+// five section
+section {
+
+    span {
+        color: $white;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        display: flex;
+        font-size: 60px;
+    }
+
+}
+section{
+    button{
+        width: 226px;
+        height: 56px;
+        font-size: 17px;
+        background-color: $white;
+        margin: auto;
+        font-family: $Chakra;
+        border-radius: 10px;
+        transition: all 0.8s;
+       margin: auto;
+    }
+    button:hover{
+        background-color: rgba(0, 0, 255, 0.254);
+        color:$white;
+
+    }
+
+}
+// six section
+section{
+   h4{
+    font-size: 35px;
+    color: $white;
+    font-family: $Chakra;
+    padding-top:20%;
+    
+   
+   }
+   h4.minite{
+    font-size: 35px;
+    color: $white;
+    font-family: $Chakra;
+    padding-top:20%;
+    text-align: right;
+    margin-right: 20%;
+    
+   
+   }
+   
+   
+    h5{
+        color: #edededc7;
+        font-size: 20px;
+        font-family: $Roboto;
+        line-height: 35px;
+        padding-top:8%;
+        width: 80%;
+        }
+    h5.roadmap{
+        text-align: right;
+        color: #edededc7;
+        font-size: 20px;
+        font-family: $Roboto;
+        line-height: 35px;
+        padding-top:8%;
+        width: 80%;
+        
+
+    }
+   
+}
+// seven section
+section{
+    .w-25{
+        width: 25%;
+    }
+}
+// footer
+footer{
+    .w-25{
+        width: 25%;
+    }
+    h5{
+        color: #ededed81;
+        font-size: 20px;
+        font-family: $Roboto;
+        line-height: 20px;
+        padding-top:8%;
+        width: 100%;
+       }
+    h6{
+        color: $white;
+        font-family: $Roboto;
+    }
+    ul{
+        li{
+            margin-top: 25px;
+            a{
+                color: $white;
+                text-decoration: none;
+                padding: 5px 0;
+                font-family: $Roboto;
+                
+            }
+        }
+    }
+}
+section{
+   .copyright{
+       color: $white;
+    text-align: left;
+    }
+    .icon i{
+        padding: 0 10px;
+    }
+    .icon{
+        font-size: 24px;
+        color: $white; 
+        right:445px;
+        transition: all 0.5s;
+        position: absolute;
+    }
+    .icon i:hover{
+        color: #0058E6;
+    }
+}
+  
+
+
+
+.title1{
+    h3{
+     padding:50px 0;
+     margin: auto;
+    }
+}
